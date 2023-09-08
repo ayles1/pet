@@ -1,8 +1,8 @@
 import React, { lazy } from 'react';
 import {
     Article, Header, Main, Navbar, Heading,
-} from './modules/layoutModule';
-import { Button } from './modules/layoutModule/ui';
+} from '../modules/layoutModule';
+import { Button } from '../modules/layoutModule/ui';
 import styles from './App.module.scss';
 
 export const App = () => (
@@ -118,11 +118,9 @@ export const App = () => (
                             </li>
                         </ul>
                     </Navbar>
-                    {/* <aside> */}
                     <div className="wrapper">
                         <img src="./shared/assets/follow.png" alt="follow" />
                     </div>
-                    {/* </aside> */}
                 </aside>
             </Article>
         </Main>
