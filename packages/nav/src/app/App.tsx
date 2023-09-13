@@ -1,8 +1,8 @@
 import React, { lazy } from 'react';
 import {
     Article, Header, Main, Navbar, Heading,
-} from '../modules/layoutModule';
-import { Button } from '../modules/layoutModule/ui';
+    Button,
+} from '@/modules/layoutModule';
 import styles from './App.module.scss';
 
 export const App = () => (
